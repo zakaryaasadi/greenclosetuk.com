@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Green Closet - Home page</title>
+  <meta content="clothes recycling" name="description">
+  <meta content="Green closet clothes recycling uk" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">Kiswa<span>.</span></a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto me-lg-0"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#services">How do we work?</a></li>
+          <li><a class="nav-link scrollto" href="#features">About us</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Gellary</a></li>
+          <li><a class="nav-link scrollto " href="#about">Our services</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#create-order" class="get-started-btn scrollto">Pickup order</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center text" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Extra value zero waste<span>.</span></h1>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="create-order" class="about create-order">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="../assets/img/features.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>Pickup order</h3>
+            <form class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label>Full name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your full name" required>
+                  <small id="name_empty" class="err-info form-text text-danger">Please enter your name</small>
+                </div>
+
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <label>Phone</label>
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="7XXXXXXXXX" required>
+                <small id="phone_empty" class="err-info form-text text-danger">Please enter your phone</small>
+                <small id="phone_incorrect" class="err-info form-text text-danger">Please enter your phone corretly</small>
+              </div>
+            </div>
+
+            <div class="form-group mt-3 mt-md-0">
+              <label>Address</label>
+                <input type="text" class="form-control" name="address" id="address" placeholder="City name, Street name, Building name, Flat no" required>
+                <small id="address_empty" class="err-info form-text text-danger">Please enter your address</small>
+            </div>
+
+            <div class="mt-4 mb-md-0">
+              <h4>Order Type</h4>
+              <p>Please select your order type</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="is_donate" id="donate" checked>
+                <label class="form-check-label" for="donate">
+                  <b>Donation:</b> I want to donate my extra clothes to charities directly 
+                </label>
+              </div>
+              <div class="form-check mt-2">
+                <input class="form-check-input" type="radio" name="is_donate" id="sell">
+                <label class="form-check-label" for="sell">
+                  <b>Recycling:</b> I want to recycle my extra clothes and get a financial reward
+                </label>
+              </div>
+            </div>
+
+            <div class="mt-4 mb-md-0 form-group charity">
+              <label>Charity</label>
+                <select class="form-control" name="charity" id="charity">
+                  <option value="Al_Kawthar" selected>Al Kawthar charity</option>
+                  <option value="Arab_for_charity_society">Arab for charity society</option>
+                  <option value="Mafatih_alkhayr">Mafatih Alkhayr charity</option>
+                  <option value="Maan_Center_for_Special_Education">Maan Center for Special Education</option>
+                  <option value="AlHikmeh_Center_for_Generations">Al-Hikmeh Center for Generations</option>
+                  <option value="AlHidaya_Center_for_Awareness_of_Communities">Al-Hidaya Center for Awareness of Communities</option>
+                  <option value="Children_Educational_Services_Center">Children's Educational Services Center (Tatwaam)</option>
+                  <option value="Abdul_Bin_Masoud_Center">Abdul Bin Masoud Center</option>
+                  <option value="Islamic_Association">Islamic Association</option>
+                </select>
+            </div>
+              <div class="my-3">
+                <div class="loading"> loading... </div>
+                <div class="dup-message">You have a previous request that is being processed, we will contact you on <strong id="date"></strong></div>
+                <div class="error-message">An error occurred while submitting the request. You can contact us by phone</div>
+                <div class="sent-message">Your request has been successfully sent. We will contact you within two working days. Thanks!</div>
+              </div>
+              <div class="text-center"><button class="en" id="send" type="button">Submit</button></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>HOW DO WE WORK?</h2>
+          <p>WITH INDIVIDUALS</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-paste"></i></div>
+              <h4><a href="">1- Request</a></h4>
+              <p>The customer sends the collection request through our electronic applications.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-package"></i></div>
+              <h4><a href="">2- Collection</a></h4>
+              <p>Our representative arrives at the customer's site within 24 hours to recieve the clothes. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-dollar-circle'></i></div>
+              <h4><a href="">3- Rewards</a></h4>
+              <p>The customer get an immediate financial reward.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-donate-heart' ></i></div>
+              <h4><a href="">4- Donation</a></h4>
+              <p>Part of the financial rewards on clothing are allocated to support charities.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box" style="padding: 80px 90px;">
+              <div class="icon"><i class='bx bxs-t-shirt' ></i></div>
+              <h4><a href="">5- Sorting</a></h4>
+              <p>Clothes are sorted and reused safety.</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+        <!-- ======= Services Section ======= -->
+        <section class="services">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="section-title">
+              <h2>HOW DO WE WORK?</h2>
+              <p>WITH COMPANIES AND ASSOCIATIONS</p>
+            </div>
+    
+            <div class="row">
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon-box">
+                  <div class="icon"><i class="bx bx-file"></i></div>
+                  <h4><a href="">1- Agreement</a></h4>
+                  <p>Agreement with associations and companies to cooprate.</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon-box" style="padding: 80px 100px;">
+                  <div class="icon"><i class='bx bxs-id-card' ></i></div>
+                  <h4><a href="">2- Identification</a></h4>
+                  <p>Identification of areas to implemented. </p>
+                </div>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon-box">
+                  <div class="icon"><i class="bx bx-package"></i></div>
+                  <h4><a href="">3- Collection</a></h4>
+                  <p>Green closet applies the recieving clothes with high accuracy and commitment.</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon-box">
+                  <div class="icon"><i class='bx bx-buildings' ></i></div>
+                  <h4><a href="">4- Companies and Associations</a></h4>
+                  <p>Companies and association recieve clothes for the amount impicitly agreed.</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon-box">
+                  <div class="icon"><i class='bx bxs-t-shirt' ></i></div>
+                  <h4><a href="">5- Sorting</a></h4>
+                  <p>Sorting and recycling to get rid to clothes in ways that are safe and environmentally friendly   q.</p>
+                </div>
+              </div>
+    
+    
+            </div>
+    
+          </div>
+        </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Contact us</h3>
+          <p>You can contact us in case of any suggestion or complaint</p>
+          <a class="cta-btn" href="#contact">Contact us</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="image col-lg-6" style='background-image: url("../assets/img/about-us.jpeg");' data-aos="fade-right"></div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class='bx bx-info-circle'></i>
+              <h4>ABOUT US</h4>
+              <p>Green Closet is a socially responsible company that was founded in 2022 and headerquartered in the United Kingdom.
+              We collect donations of gently used clothing and also purchase pre-owned clothing.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class='bx bx-rocket' ></i>
+              <h4>OUR MISSION </h4>
+              <p>Our mission is to promote sustainability by collection used clothing and repurposting it.
+              We believe that by giving new life to pre-owned clothing, we can reduce waste and protect the environment as our company covers all regions of the United Kingdom.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class='bx bx-target-lock'></i>
+              <h4>OUR GOAL</h4>
+              <p>Our goal is to keep as much clothing our of landfills as possible.
+                In addition, Green Closet works closely with communities an organizations to promote environmental awareness and to help those in need.
+              We can make a positive impact on the planet and the people who inhabit it.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class='bx bx-sun'></i>
+              <h4>OUR VISION</h4>
+              <p>Our vision is to be the leading company in the industry of recycling used clothing.
+              We aim to make an impact in the community by providing jobs and supporting local charities with main goal in mind which is to create a sustainable and better future for the people and our planet.  </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Gellary</h2>
+          <p>Gallery of some of our work</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="../assets/img/flags/united-kingdom.png" class="testimonial-img" alt="">
+                <h3>United Kingdom</h3>
+                <h4>Founded in</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  2022
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="../assets/img/flags/united-arab-emirates.png" class="testimonial-img" alt="">
+                <h3>United Arab Emirate</h3>
+                <h4>Founded in</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  2021
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="../assets/img/flags/turkey.png" class="testimonial-img" alt="">
+                <h3>Tukiye</h3>
+                <h4>Founded in</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  2018
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="../assets/img/flags/saudi-arabia.png" class="testimonial-img" alt="">
+                <h3>Saudi Arabia</h3>
+                <h4>Founded in</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  2007
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="../assets/img/flags/egypt.png" class="testimonial-img" alt="">
+                <h3>Egypt</h3>
+                <h4>Founded in</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  2022
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+
+            <!-- ======= About Section ======= -->
+            <section id="about" class="about">
+              <div class="container" data-aos="fade-up">
+        
+                <div class="row">
+                  <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                    <img src="../assets/img/our-service.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                    <h3>OUR SERVICES.</h3>
+                    <p class="fst-italic">
+                      Protecting the environment and natural resources through the recycling of used clothes.
+                    </p>
+                    <p>
+                      Several ways have been prepared to facilite the process of collection used clothes to ensure its arrival in an easy and secure way to the recycling center and is not traded in the local markets.
+                    </p>
+                    <h4 class="text-center mt-4" style="color:#008451">Our service is unlimited to this only...</h4>
+                  </div>
+                </div>
+        
+              </div>
+            </section><!-- End About Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact us</p>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://maps.google.com/maps?q=51.5484730394805,-0.11652900729785941&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt ltr"></i>
+                <h4 class="ltr">Address:</h4>
+                <p class="ltr">United Kingdom, London</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope ltr"></i>
+                <h4 class="ltr">Email:</h4>
+                <p class="ltr">info@greencloset.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone ltr"></i>
+                <h4 class="ltr">Phone:</h4>
+                <p class="ltr">+44 7440 701905</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form class="php-email-form send-message">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder=" Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading"> loading... </div>
+                <div class="error-message">Error</div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="button" id="send-message">Send message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Green Closet<span>.</span></h3>
+              <p>
+                United Kingdom - Lonodon
+                </p>
+                <strong>Phone: </strong>+44 7440 701905<br>
+                <strong>Email: </strong> info@greencloset.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                <a href="#" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; All Rights Reserved
+        <strong><span>Green Closet</span></strong>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
